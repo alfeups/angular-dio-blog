@@ -3,8 +3,7 @@
 }
 
 .menu-bar__container{
-  margin-top: 10px;
-  border: solid rgb(233, 208, 65) 3px;
+  border: solid rgb(8, 7, 1) 3px;
   color: white;
   align-items: center;
 }
@@ -29,6 +28,7 @@
 }
 
 .no-submit {
+  color: aliceblue;
   display: flex;
   flex-direction: row;
   align-content: center;
