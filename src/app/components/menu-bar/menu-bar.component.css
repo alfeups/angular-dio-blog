@@ -1,0 +1,37 @@
+*{
+  background-color: black;
+}
+
+.menu-bar__container{
+  margin-top: 10px;
+  border: solid rgb(233, 208, 65) 3px;
+  color: white;
+  align-items: center;
+}
+
+.menu-bar__container > h1 {
+  margin-top: 10px;
+  display: flex;
+}
+
+.menu-bar__container > ul{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.menu-bar__container > ul > li{
+  margin-top: 12px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.no-submit {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-right: 0px;
+  margin-left: 820px;
+}
