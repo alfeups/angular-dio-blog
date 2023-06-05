@@ -1,0 +1,31 @@
+*{
+  background-color: #000000;
+  color: wheat;
+}
+
+.social-icons {
+  position: fixed;
+  top: 5px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #000000;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-icons a li {
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  background-color: #afb5c2;
+}

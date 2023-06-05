@@ -1,10 +1,10 @@
 *{
   background-color: black;
+  color: wheat;
 }
 
-.menu-bar__container{
+.menu-bar__container {
   border: solid rgb(8, 7, 1) 3px;
-  color: white;
   align-items: center;
 }
 
@@ -13,13 +13,14 @@
   display: flex;
 }
 
-.menu-bar__container > ul{
+.menu-bar__container > ul {
   display: flex;
   flex-direction: row;
+  align-content: center;
 }
 
 
-.menu-bar__container > ul > li{
+.menu-bar__container > ul > li {
   margin-top: 12px;
   margin-left: 40px;
   display: flex;
@@ -33,5 +34,41 @@
   flex-direction: row;
   align-content: center;
   margin-right: 0px;
-  margin-left: 820px;
+  margin-left: 600px;
+  margin-right: 10px;
+
 }
+
+.home-icon {
+  background-color: #0a0909;
+  color: #fff;
+  text-decoration: none;
+
+  display: inline-block;
+  text-align: right;
+
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+
+  margin-top: 5px;
+  margin-left: 0px;
+}
+
+
+
+.social-icons > a > li {
+  margin-top: 12px;
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.social-icons > a {
+  margin-right: 10px;
+}
+
+
+ .menu-bar__container > ul > li > span {
+  color: black;
+ }

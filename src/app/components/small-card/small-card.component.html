@@ -3,15 +3,19 @@
   <div class="container__small-card-content">
     <div class="small-card__photo">
       <img
-        src="https://m.media-amazon.com/images/S/pv-target-images/b5e02a9dba88c2abd50700d3e18ac0a7413ab383a0bc4d1d4305485ddc68fe25._AC_SL792_.jpg"
+        src="{{ photoCover }}"
         alt=""
         srcset=""
       >
     </div>
   </div>
-  <h1>Book</h1>
-  <div class="container__small-card__separator">
-    <hr>
+
+  <div class="small-card__title">
+  <h1><a [routerLink]="['content', id]"> {{ cardTitle }}</a></h1>
   </div>
+
+  <div class="small-card__description">
+    <a href="#"> {{ cardDescription }} </a>
+    </div>
 
 </div>

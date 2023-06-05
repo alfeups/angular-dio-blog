@@ -7,9 +7,9 @@ import { MenuBarComponent } from 'src/app/components/menu-bar/menu-bar.component
 import { MenuTitleComponent } from './components/menu-title/menu-title.component';
 import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
-import { MediumCardComponent } from './components/medium-card/medium-card.component';
 import { HomeComponent } from './pages/home/home.component';
-import { SocialIconsComponent } from './social-icons/social-icons.component';
+import { SocialIconsComponent } from './components/social-icons/social-icons.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +18,9 @@ import { SocialIconsComponent } from './social-icons/social-icons.component';
     MenuTitleComponent,
     BigCardComponent,
     SmallCardComponent,
-    MediumCardComponent,
     HomeComponent,
-    SocialIconsComponent
+    SocialIconsComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
